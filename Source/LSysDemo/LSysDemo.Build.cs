@@ -4,8 +4,10 @@ using UnrealBuildTool;
 
 public class LSysDemo : ModuleRules
 {
-	public LSysDemo(TargetInfo Target)
+	public LSysDemo(ReadOnlyTargetRules Target) : base(Target)
 	{
+		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });

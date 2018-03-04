@@ -1,6 +1,6 @@
 # LindenmayerSystem
 	A simple C++ plugin for Unreal Engine 4 containing everything needed to play with Lindenmayer Systems.
-	Plugin was built and tested with 4.14.3
+	Plugin was built and tested with 4.17
 	
 ![ScreenShot](/Screenshots/ProceduralSpline.png)
 ![ScreenShot](/Screenshots/ProceduralSpline2.png)
